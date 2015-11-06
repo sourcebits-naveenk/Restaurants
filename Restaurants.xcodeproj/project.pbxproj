@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00562D51BEC7309003D12B1 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00562D41BEC7309003D12B1 /* ItemsViewController.m */; };
+		D00562D81BEC7E72003D12B1 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00562D71BEC7E72003D12B1 /* TabBarController.m */; };
 		D0E7DBBD1BE9E8A70080B978 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E7DBBC1BE9E8A70080B978 /* main.m */; };
 		D0E7DBC01BE9E8A70080B978 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E7DBBF1BE9E8A70080B978 /* AppDelegate.m */; };
 		D0E7DBC31BE9E8A70080B978 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E7DBC21BE9E8A70080B978 /* ViewController.m */; };
@@ -14,6 +16,19 @@
 		D0E7DBC81BE9E8A70080B978 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E7DBC71BE9E8A70080B978 /* Images.xcassets */; };
 		D0E7DBCB1BE9E8A70080B978 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E7DBC91BE9E8A70080B978 /* LaunchScreen.xib */; };
 		D0E7DBD71BE9E8A70080B978 /* RestaurantsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E7DBD61BE9E8A70080B978 /* RestaurantsTests.m */; };
+		D0E7DBE21BE9F9C20080B978 /* RestaurantDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E7DBE11BE9F9C20080B978 /* RestaurantDetails.m */; };
+		D0E7DBE61BE9FA560080B978 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E7DBE41BE9FA560080B978 /* TableViewCell.m */; };
+		D0E7DBE71BE9FA560080B978 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E7DBE51BE9FA560080B978 /* TableViewCell.xib */; };
+		D0E7DC011BEA3C370080B978 /* RestaurantDetails.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0E7DC001BEA3C370080B978 /* RestaurantDetails.plist */; };
+		D0E7DC041BEB2A950080B978 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E7DC031BEB2A950080B978 /* MenuViewController.m */; };
+		D0E7DC211BEB35940080B978 /* MenuViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E7DC1F1BEB35940080B978 /* MenuViewCell.m */; };
+		D0E7DC221BEB35940080B978 /* MenuViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E7DC201BEB35940080B978 /* MenuViewCell.xib */; };
+		D0E7DC251BEB35D70080B978 /* RestaurantMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E7DC241BEB35D70080B978 /* RestaurantMenu.m */; };
+		D0E7DC2C1BEB36C40080B978 /* Absolute-Barbeque-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0E7DC271BEB36C40080B978 /* Absolute-Barbeque-logo.jpg */; };
+		D0E7DC2D1BEB36C40080B978 /* Barbeque-Nation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0E7DC281BEB36C40080B978 /* Barbeque-Nation.jpg */; };
+		D0E7DC2E1BEB36C40080B978 /* BiryanniBowl.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E7DC291BEB36C40080B978 /* BiryanniBowl.png */; };
+		D0E7DC2F1BEB36C40080B978 /* kfcLogo.gif in Resources */ = {isa = PBXBuildFile; fileRef = D0E7DC2A1BEB36C40080B978 /* kfcLogo.gif */; };
+		D0E7DC301BEB36C40080B978 /* meghana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0E7DC2B1BEB36C40080B978 /* meghana.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +42,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D00562D31BEC7309003D12B1 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
+		D00562D41BEC7309003D12B1 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
+		D00562D61BEC7E72003D12B1 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		D00562D71BEC7E72003D12B1 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 		D0E7DBB71BE9E8A60080B978 /* Restaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E7DBBB1BE9E8A70080B978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0E7DBBC1BE9E8A70080B978 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0E7DBBE1BE9E8A70080B978 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D0E7DBBF1BE9E8A70080B978 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D0E7DBC11BE9E8A70080B978 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D0E7DBC21BE9E8A70080B978 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0E7DBC21BE9E8A70080B978 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = /Users/naveenkatari/Desktop/Training/Restaurants/Restaurants/ViewController.m; sourceTree = "<absolute>"; };
 		D0E7DBC51BE9E8A70080B978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0E7DBC71BE9E8A70080B978 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D0E7DBCA1BE9E8A70080B978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D0E7DBD01BE9E8A70080B978 /* RestaurantsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E7DBD51BE9E8A70080B978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0E7DBD61BE9E8A70080B978 /* RestaurantsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestaurantsTests.m; sourceTree = "<group>"; };
+		D0E7DBE01BE9F9C20080B978 /* RestaurantDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestaurantDetails.h; path = ../RestaurantDetails.h; sourceTree = "<group>"; };
+		D0E7DBE11BE9F9C20080B978 /* RestaurantDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestaurantDetails.m; path = ../RestaurantDetails.m; sourceTree = "<group>"; };
+		D0E7DBE31BE9FA560080B978 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		D0E7DBE41BE9FA560080B978 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		D0E7DBE51BE9FA560080B978 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		D0E7DC001BEA3C370080B978 /* RestaurantDetails.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RestaurantDetails.plist; sourceTree = "<group>"; };
+		D0E7DC021BEB2A950080B978 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = ../MenuViewController.h; sourceTree = "<group>"; };
+		D0E7DC031BEB2A950080B978 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = ../MenuViewController.m; sourceTree = "<group>"; };
+		D0E7DC1E1BEB35940080B978 /* MenuViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewCell.h; sourceTree = "<group>"; };
+		D0E7DC1F1BEB35940080B978 /* MenuViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewCell.m; sourceTree = "<group>"; };
+		D0E7DC201BEB35940080B978 /* MenuViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewCell.xib; sourceTree = "<group>"; };
+		D0E7DC231BEB35D70080B978 /* RestaurantMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantMenu.h; sourceTree = "<group>"; };
+		D0E7DC241BEB35D70080B978 /* RestaurantMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantMenu.m; sourceTree = "<group>"; };
+		D0E7DC271BEB36C40080B978 /* Absolute-Barbeque-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Absolute-Barbeque-logo.jpg"; sourceTree = "<group>"; };
+		D0E7DC281BEB36C40080B978 /* Barbeque-Nation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Barbeque-Nation.jpg"; sourceTree = "<group>"; };
+		D0E7DC291BEB36C40080B978 /* BiryanniBowl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BiryanniBowl.png; sourceTree = "<group>"; };
+		D0E7DC2A1BEB36C40080B978 /* kfcLogo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kfcLogo.gif; sourceTree = "<group>"; };
+		D0E7DC2B1BEB36C40080B978 /* meghana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meghana.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +100,7 @@
 		D0E7DBAE1BE9E8A60080B978 = {
 			isa = PBXGroup;
 			children = (
+				D0E7DC081BEB307C0080B978 /* Resources */,
 				D0E7DBB91BE9E8A60080B978 /* Restaurants */,
 				D0E7DBD31BE9E8A70080B978 /* RestaurantsTests */,
 				D0E7DBB81BE9E8A60080B978 /* Products */,
@@ -81,10 +119,11 @@
 		D0E7DBB91BE9E8A60080B978 /* Restaurants */ = {
 			isa = PBXGroup;
 			children = (
+				D0E7DC071BEB2C430080B978 /* View */,
+				D0E7DC061BEB2C220080B978 /* Controller */,
+				D0E7DC051BEB2BCF0080B978 /* Modal */,
 				D0E7DBBE1BE9E8A70080B978 /* AppDelegate.h */,
 				D0E7DBBF1BE9E8A70080B978 /* AppDelegate.m */,
-				D0E7DBC11BE9E8A70080B978 /* ViewController.h */,
-				D0E7DBC21BE9E8A70080B978 /* ViewController.m */,
 				D0E7DBC41BE9E8A70080B978 /* Main.storyboard */,
 				D0E7DBC71BE9E8A70080B978 /* Images.xcassets */,
 				D0E7DBC91BE9E8A70080B978 /* LaunchScreen.xib */,
@@ -96,6 +135,7 @@
 		D0E7DBBA1BE9E8A60080B978 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D0E7DC001BEA3C370080B978 /* RestaurantDetails.plist */,
 				D0E7DBBB1BE9E8A70080B978 /* Info.plist */,
 				D0E7DBBC1BE9E8A70080B978 /* main.m */,
 			);
@@ -117,6 +157,65 @@
 				D0E7DBD51BE9E8A70080B978 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0E7DC051BEB2BCF0080B978 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7DBE01BE9F9C20080B978 /* RestaurantDetails.h */,
+				D0E7DBE11BE9F9C20080B978 /* RestaurantDetails.m */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		D0E7DC061BEB2C220080B978 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7DBC11BE9E8A70080B978 /* ViewController.h */,
+				D0E7DBC21BE9E8A70080B978 /* ViewController.m */,
+				D0E7DC021BEB2A950080B978 /* MenuViewController.h */,
+				D0E7DC031BEB2A950080B978 /* MenuViewController.m */,
+				D00562D31BEC7309003D12B1 /* ItemsViewController.h */,
+				D00562D41BEC7309003D12B1 /* ItemsViewController.m */,
+				D0E7DC231BEB35D70080B978 /* RestaurantMenu.h */,
+				D0E7DC241BEB35D70080B978 /* RestaurantMenu.m */,
+				D00562D61BEC7E72003D12B1 /* TabBarController.h */,
+				D00562D71BEC7E72003D12B1 /* TabBarController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D0E7DC071BEB2C430080B978 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7DBE31BE9FA560080B978 /* TableViewCell.h */,
+				D0E7DBE41BE9FA560080B978 /* TableViewCell.m */,
+				D0E7DBE51BE9FA560080B978 /* TableViewCell.xib */,
+				D0E7DC1E1BEB35940080B978 /* MenuViewCell.h */,
+				D0E7DC1F1BEB35940080B978 /* MenuViewCell.m */,
+				D0E7DC201BEB35940080B978 /* MenuViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D0E7DC081BEB307C0080B978 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7DC261BEB36C40080B978 /* Restaurant Logos */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D0E7DC261BEB36C40080B978 /* Restaurant Logos */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7DC271BEB36C40080B978 /* Absolute-Barbeque-logo.jpg */,
+				D0E7DC281BEB36C40080B978 /* Barbeque-Nation.jpg */,
+				D0E7DC291BEB36C40080B978 /* BiryanniBowl.png */,
+				D0E7DC2A1BEB36C40080B978 /* kfcLogo.gif */,
+				D0E7DC2B1BEB36C40080B978 /* meghana.jpg */,
+			);
+			path = "Restaurant Logos";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +299,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0E7DBC61BE9E8A70080B978 /* Main.storyboard in Resources */,
+				D0E7DBE71BE9FA560080B978 /* TableViewCell.xib in Resources */,
+				D0E7DC2F1BEB36C40080B978 /* kfcLogo.gif in Resources */,
 				D0E7DBCB1BE9E8A70080B978 /* LaunchScreen.xib in Resources */,
+				D0E7DC011BEA3C370080B978 /* RestaurantDetails.plist in Resources */,
+				D0E7DC2E1BEB36C40080B978 /* BiryanniBowl.png in Resources */,
 				D0E7DBC81BE9E8A70080B978 /* Images.xcassets in Resources */,
+				D0E7DC2C1BEB36C40080B978 /* Absolute-Barbeque-logo.jpg in Resources */,
+				D0E7DC301BEB36C40080B978 /* meghana.jpg in Resources */,
+				D0E7DC221BEB35940080B978 /* MenuViewCell.xib in Resources */,
+				D0E7DC2D1BEB36C40080B978 /* Barbeque-Nation.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +327,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0E7DBC31BE9E8A70080B978 /* ViewController.m in Sources */,
+				D0E7DC251BEB35D70080B978 /* RestaurantMenu.m in Sources */,
+				D0E7DBE21BE9F9C20080B978 /* RestaurantDetails.m in Sources */,
 				D0E7DBC01BE9E8A70080B978 /* AppDelegate.m in Sources */,
+				D0E7DC211BEB35940080B978 /* MenuViewCell.m in Sources */,
+				D0E7DC041BEB2A950080B978 /* MenuViewController.m in Sources */,
+				D00562D51BEC7309003D12B1 /* ItemsViewController.m in Sources */,
+				D00562D81BEC7E72003D12B1 /* TabBarController.m in Sources */,
+				D0E7DBE61BE9FA560080B978 /* TableViewCell.m in Sources */,
 				D0E7DBBD1BE9E8A70080B978 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +530,7 @@
 				D0E7DBDC1BE9E8A70080B978 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0E7DBDD1BE9E8A70080B978 /* Build configuration list for PBXNativeTarget "RestaurantsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +539,7 @@
 				D0E7DBDF1BE9E8A70080B978 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

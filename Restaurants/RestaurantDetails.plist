@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Meghana Foods Menu</key>
+	<array>
+		<string>Chicken Biryani</string>
+		<string>Veg Biryani</string>
+		<string>Egg Biryani</string>
+		<string>Gobi 65</string>
+		<string>Chicken 65</string>
+	</array>
+	<key>KFC Menu</key>
+	<array>
+		<string>Fiery Grilled Chicken </string>
+		<string>Chicken Burger</string>
+		<string>KFC Rock Box Chicken</string>
+		<string>Veg Crunch Box</string>
+	</array>
+	<key>Biryani Bowl Menu</key>
+	<array>
+		<string>Hyderabadi Biryani</string>
+		<string>Veg Biryani</string>
+		<string>Egg Biryani</string>
+		<string>Boneless Biryani</string>
+	</array>
+	<key>Absolute Barbeque Menu</key>
+	<array>
+		<string>Chicken Biryani</string>
+		<string>Absolute Special Biryani</string>
+		<string>Chicken Boneless Biryani</string>
+		<string>Chilli Chicken </string>
+	</array>
+	<key>Barbeque Nation Menu</key>
+	<array>
+		<string>Chicken Biryani</string>
+		<string>Mutton Biryani</string>
+		<string>Gobi</string>
+		<string>Chicken 65</string>
+	</array>
+	<key>Restaurants</key>
+	<array>
+		<string>Barbeque Nation</string>
+		<string>Absolute Barbeque</string>
+		<string>Meghana Foods</string>
+		<string>KFC</string>
+		<string>Biriyani Bowl</string>
+	</array>
+	<key>RestaurantLogo</key>
+	<array>
+		<string>Barbeque-Nation.jpg</string>
+		<string>Absolute-Barbeque-logo.jpg</string>
+		<string>meghana.jpg</string>
+		<string>kfcLogo.gif</string>
+		<string>BiryanniBowl.jpg</string>
+	</array>
+</dict>
+</plist>
