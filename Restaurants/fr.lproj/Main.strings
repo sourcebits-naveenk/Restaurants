@@ -1,0 +1,12 @@
+
+/* Class = "UINavigationItem"; title = "Menu"; ObjectID = "8bc-75-zRr"; */
+"8bc-75-zRr.title" = "Le Menu";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "9DO-ca-2Zg"; */
+"9DO-ca-2Zg.title" = "De Item";
+
+/* Class = "UITabBarItem"; title = "Restaurants"; ObjectID = "SLG-vP-dXt"; */
+"SLG-vP-dXt.title" = "Ristoranto";
+
+/* Class = "UINavigationItem"; title = "Restaurants"; ObjectID = "qh6-tL-qF3"; */
+"qh6-tL-qF3.title" = "Ristoranto";

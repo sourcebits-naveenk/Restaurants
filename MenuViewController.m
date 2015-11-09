@@ -27,23 +27,23 @@
     [_tblRestaurantMenu registerNib:[UINib nibWithNibName:@"MenuViewCell" bundle:nil] forCellReuseIdentifier:@"MenuCell"];
     [ self setTitle:self.restaurantName];
     [self.restaurantMenu getRestaurantMenu];
-    if ([self.restaurantName isEqualToString:@"Barbeque Nation"])
+    if ([self.restaurantName isEqualToString:NSLocalizedString(@"Barbeque Nation", nil)])
     {
         [menuArray addObjectsFromArray:_restaurantMenu.barbequeNationMenu];
     }
-    if ([self.restaurantName isEqualToString:@"Absolute Barbeque"])
+    if ([self.restaurantName isEqualToString:NSLocalizedString(@"Absolute Barbeque", nil)])
     {
         [menuArray addObjectsFromArray:_restaurantMenu.absoluteBarbequeMenu];
     }
-    if ([self.restaurantName isEqualToString:@"Biriyani Bowl"])
+    if ([self.restaurantName isEqualToString:NSLocalizedString(@"Biriyani Bowl", nil)])
     {
         [menuArray addObjectsFromArray:_restaurantMenu.biryaniBowlMenu];
     }
-    if ([self.restaurantName isEqualToString:@"Meghana Foods"])
+    if ([self.restaurantName isEqualToString:NSLocalizedString(@"Meghana Foods", nil)])
     {
         [menuArray addObjectsFromArray:_restaurantMenu.meghanaFoodsMenu];
     }
-    if ([self.restaurantName isEqualToString:@"KFC"])
+    if ([self.restaurantName isEqualToString:NSLocalizedString(@"KFC", nil)])
     {
         [menuArray addObjectsFromArray:_restaurantMenu.kfcMenu];
     }

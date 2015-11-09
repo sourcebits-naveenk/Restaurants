@@ -7,6 +7,7 @@
 //
 
 #import "ItemsViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface ItemsViewController ()
 
@@ -18,11 +19,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
    [ _lblItem text];
+    
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 @end

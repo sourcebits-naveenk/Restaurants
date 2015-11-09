@@ -123,7 +123,7 @@
         <scene sceneID="bCy-w6-E16">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2hb-PK-IDy" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Restaurants" id="SLG-vP-dXt">
+                    <tabBarItem key="tabBarItem" title="Restaurants" image="Restaurant_Logo.png" id="SLG-vP-dXt">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-5"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -152,16 +152,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="400" height="500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9JA-cU-H7H">
-                                <rect key="frame" x="54" y="20" width="210" height="118"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t70-qc-Smk" customClass="Shape">
+                                <rect key="frame" x="16" y="6" width="368" height="250"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9JA-cU-H7H">
+                                        <rect key="frame" x="8" y="87" width="210" height="118"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="9DO-ca-2Zg"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="Food-Cart.png" id="9DO-ca-2Zg"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="lblItem" destination="9JA-cU-H7H" id="7Wz-bU-zzq"/>
@@ -172,4 +178,8 @@
             <point key="canvasLocation" x="1015" y="1100"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Food-Cart.png" width="30" height="30"/>
+        <image name="Restaurant_Logo.png" width="30" height="30"/>
+    </resources>
 </document>

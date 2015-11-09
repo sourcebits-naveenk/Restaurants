@@ -10,10 +10,11 @@
 #import "MenuViewController.h"
 
 @interface ViewController ()
-{
-    NSMutableArray *restaurants;
-    NSInteger selectedIndex;
-}
+
+    {
+        NSMutableArray *restaurants;
+        NSInteger selectedIndex;
+    }
 
 @end
 
@@ -28,17 +29,15 @@
     NSDictionary *plistDict = [NSDictionary dictionaryWithContentsOfFile:path];
     
     restaurants = [[NSMutableArray alloc]init];
-    
     for(int i=0; i < 5; i++)
     {
         
         _restaurantDetails = [[RestaurantDetails alloc]init];
-    _restaurantDetails.restaurantNames = [[plistDict objectForKey:@"Restaurants"]objectAtIndex:i];
+    _restaurantDetails.restaurantNames = NSLocalizedString([[plistDict objectForKey:@"Restaurants"]objectAtIndex:i], nil) ;
     _restaurantDetails.restaurantImages = [[plistDict objectForKey:@"RestaurantLogo"]objectAtIndex:i];
         [restaurants addObject:_restaurantDetails];
         _tableViewRestaurants.tableFooterView = [[UIView alloc]initWithFrame:CGRectZero];
     }
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -59,7 +58,16 @@
     cell.lblRestaurantName.text = _restaurantDetails.restaurantNames;
     cell.restaurantLogo.image = [UIImage imageNamed:_restaurantDetails.restaurantImages];
     cell.restaurantLogo.contentMode = UIViewContentModeScaleAspectFill;
+    cell.restaurantLogo.layer.cornerRadius = 10.0f;
+    cell.restaurantLogo.clipsToBounds = YES;
+    cell.restaurantLogo.layer.borderWidth = 3.0f;
+    cell.restaurantLogo.layer.borderColor = [UIColor whiteColor].CGColor;
+
     return cell;
+}
+-(void) increaseCellSize:(UIPinchGestureRecognizer *)pinchGesture
+{
+    
 }
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
