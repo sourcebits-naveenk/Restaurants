@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view.
     
     [[[ self.tabBar subviews] objectAtIndex:1 ]setHidden:YES];
-    
+    self.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -28,6 +28,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
+    
+    if (tabBarController.selectedIndex == 0) {
+        UINavigationController *navController = (UINavigationController*)viewController;
+        [ navController popToRootViewControllerAnimated:YES ];
+    }
+}
 
 /*
 #pragma mark - Navigation
