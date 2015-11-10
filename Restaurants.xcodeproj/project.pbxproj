@@ -20,7 +20,8 @@
 		D0BB7F891BF20A7000E1A172 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BB7F831BF20A7000E1A172 /* Shape.m */; };
 		D0BB7F8C1BF20A7F00E1A172 /* RestaurantDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BB7F8B1BF20A7F00E1A172 /* RestaurantDetails.m */; };
 		D0BB7F8E1BF20AA700E1A172 /* RestaurantDetails.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0BB7F8D1BF20AA700E1A172 /* RestaurantDetails.plist */; };
-		D0E7DBBD1BE9E8A70080B978 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E7DBBC1BE9E8A70080B978 /* main.m */; };
+		D0BB7F901BF20E3600E1A172 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BB7F8F1BF20E3600E1A172 /* main.m */; };
+		D0BB7F921BF20E5300E1A172 /* Restaurants.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0BB7F911BF20E5300E1A172 /* Restaurants.plist */; };
 		D0E7DBC01BE9E8A70080B978 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E7DBBF1BE9E8A70080B978 /* AppDelegate.m */; };
 		D0E7DBC61BE9E8A70080B978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E7DBC41BE9E8A70080B978 /* Main.storyboard */; };
 		D0E7DBC81BE9E8A70080B978 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E7DBC71BE9E8A70080B978 /* Images.xcassets */; };
@@ -71,9 +72,9 @@
 		D0BB7F8A1BF20A7F00E1A172 /* RestaurantDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetails.h; sourceTree = "<group>"; };
 		D0BB7F8B1BF20A7F00E1A172 /* RestaurantDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetails.m; sourceTree = "<group>"; };
 		D0BB7F8D1BF20AA700E1A172 /* RestaurantDetails.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RestaurantDetails.plist; sourceTree = "<group>"; };
+		D0BB7F8F1BF20E3600E1A172 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Restaurants/main.m; sourceTree = "<group>"; };
+		D0BB7F911BF20E5300E1A172 /* Restaurants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Restaurants.plist; path = DefaultFiles/Restaurants.plist; sourceTree = "<group>"; };
 		D0E7DBB71BE9E8A60080B978 /* Restaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurants.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0E7DBBB1BE9E8A70080B978 /* Restaurants.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Restaurants.plist; path = Restaurants/Restaurants.plist; sourceTree = "<group>"; };
-		D0E7DBBC1BE9E8A70080B978 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = /Users/naveenkatari/Desktop/Training/Restaurants/Restaurants/main.m; sourceTree = "<absolute>"; };
 		D0E7DBBE1BE9E8A70080B978 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Restaurants/AppDelegate.h; sourceTree = "<group>"; };
 		D0E7DBBF1BE9E8A70080B978 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Restaurants/AppDelegate.m; sourceTree = "<group>"; };
 		D0E7DBC51BE9E8A70080B978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -250,8 +251,8 @@
 		D0F4921A1BF1D514002B8FAE /* DefaultFiles */ = {
 			isa = PBXGroup;
 			children = (
-				D0E7DBBB1BE9E8A70080B978 /* Restaurants.plist */,
-				D0E7DBBC1BE9E8A70080B978 /* main.m */,
+				D0BB7F911BF20E5300E1A172 /* Restaurants.plist */,
+				D0BB7F8F1BF20E3600E1A172 /* main.m */,
 				D0E7DBD41BE9E8A70080B978 /* Supporting Files */,
 			);
 			name = DefaultFiles;
@@ -356,6 +357,7 @@
 				D0BB7F881BF20A7000E1A172 /* RestaurantsTableCell.xib in Resources */,
 				D0E7DC2C1BEB36C40080B978 /* Absolute-Barbeque-logo.jpg in Resources */,
 				D0F2AE9E1BF0ABC00076C0B5 /* Localizable.strings in Resources */,
+				D0BB7F921BF20E5300E1A172 /* Restaurants.plist in Resources */,
 				D0E7DC301BEB36C40080B978 /* meghana.jpg in Resources */,
 				D0F2AEAF1BF0B37E0076C0B5 /* Restaurant_Logo.png in Resources */,
 				D0BB7F861BF20A7000E1A172 /* MenuTableCell.xib in Resources */,
@@ -387,7 +389,7 @@
 				D0BB7F791BF20A5800E1A172 /* TabBarController.m in Sources */,
 				D0BB7F841BF20A7000E1A172 /* DrawString.m in Sources */,
 				D0BB7F8C1BF20A7F00E1A172 /* RestaurantDetails.m in Sources */,
-				D0E7DBBD1BE9E8A70080B978 /* main.m in Sources */,
+				D0BB7F901BF20E3600E1A172 /* main.m in Sources */,
 				D0BB7F781BF20A5800E1A172 /* RestaurantMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
