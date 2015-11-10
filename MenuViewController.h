@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MenuViewCell.h"
+#import "MenuTableCell.h"
 #import "RestaurantMenu.h"
 @interface MenuViewController : UIViewController < UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) NSString *restaurantName;
-@property (weak, nonatomic) IBOutlet UITableView *tblRestaurantMenu;
+@property (weak, nonatomic) IBOutlet UITableView *restaurantMenuTable;
 @property (strong, nonatomic) RestaurantMenu *restaurantMenu;
 
 @end

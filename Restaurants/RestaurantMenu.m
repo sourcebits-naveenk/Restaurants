@@ -15,6 +15,11 @@
 -(void) getRestaurantMenu
 
 {
+    _restaurantDetailsFromPlist = [NSMutableDictionary dictionary];
+    NSString *restaurantDetailsPlistPath = [[NSBundle mainBundle]pathForResource:@"RestaurantDetails" ofType:@"plist"];
+    _restaurantDetailsFromPlist = [NSMutableDictionary dictionaryWithContentsOfFile:restaurantDetailsPlistPath];
+
+    
     NSString *path = [[NSBundle mainBundle]pathForResource:@"RestaurantDetails" ofType:@"plist"];
     NSDictionary *plistDict = [NSDictionary dictionaryWithContentsOfFile:path];
     _barbequeNationMenu = [[NSMutableArray alloc]initWithArray:[plistDict objectForKey:@"Barbeque Nation Menu"]];

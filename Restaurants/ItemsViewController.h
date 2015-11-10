@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ItemsViewController : UIViewController //<UITableViewDataSource, UITableViewDelegate>
-@property (weak, nonatomic) IBOutlet UILabel *lblItem;
+@interface ItemsViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UILabel *selectedItemLabel;
 
 @end

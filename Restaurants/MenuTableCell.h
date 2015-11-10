@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MenuViewCell : UITableViewCell
+@interface MenuTableCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *lblMenuItem;
 
 @end

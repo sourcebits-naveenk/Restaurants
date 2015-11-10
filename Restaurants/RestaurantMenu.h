@@ -15,6 +15,7 @@
 @property (nonatomic, strong) NSMutableArray *biryaniBowlMenu;
 @property (nonatomic, strong) NSMutableArray *meghanaFoodsMenu;
 @property (nonatomic, strong) NSMutableArray *kfcMenu;
+@property (nonatomic,strong)  NSMutableDictionary *restaurantDetailsFromPlist;
 
 -(void) getRestaurantMenu;
 

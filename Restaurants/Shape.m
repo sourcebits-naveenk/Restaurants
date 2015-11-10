@@ -18,7 +18,7 @@
     CGContextSetRGBFillColor(context, 0.0, 0.0, 0.0, 0.5);
     CGContextSetRGBStrokeColor(context, 0.0, 0.0, 0.0, 0.5);
     CGContextFillRect(context, rectangle);
-    [[UIColor whiteColor]setFill];
+    [[UIColor colorWithRed:155.0f/255.0f green:155.0f/255.0f blue:155.0f/255.0f alpha:1.0f]setFill];
     UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:rectangle cornerRadius:25.0];
     [path fill];
 }

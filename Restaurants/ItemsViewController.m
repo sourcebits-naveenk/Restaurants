@@ -7,9 +7,11 @@
 //
 
 #import "ItemsViewController.h"
+#import "DrawString.h"
 #import <QuartzCore/QuartzCore.h>
 
 @interface ItemsViewController ()
+@property (weak, nonatomic) IBOutlet DrawString *orderView;
 
 @end
 
@@ -17,14 +19,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-   [ _lblItem text];
+    [ _selectedItemLabel text];
+    [ self.orderView setHidden:YES ];
     
 }
-
+//Single tap will display the order status
+- (IBAction)tapHandler:(id)sender
+{
+    
+    [ self.orderView setHidden:NO ];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 @end

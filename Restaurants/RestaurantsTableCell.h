@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TableViewCell : UITableViewCell
+@interface RestaurantsTableCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *restaurantLogo;
-@property (weak, nonatomic) IBOutlet UILabel *lblRestaurantName;
+@property (weak, nonatomic) IBOutlet UILabel *restaurantNameLabel;
 
 @end

@@ -5,10 +5,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Restaurants-->
+        <!--RestaurantsViewController-->
         <scene sceneID="VcE-dK-ZNl">
             <objects>
-                <viewController id="AF9-rB-Jmf" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="AF9-rB-Jmf" userLabel="RestaurantsViewController" customClass="RestaurantListController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uZp-1a-HzZ"/>
                         <viewControllerLayoutGuide type="bottom" id="XeF-1A-liI"/>
@@ -32,8 +32,8 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="AF9-rB-Jmf" id="h4I-0n-MRX"/>
-                                    <outlet property="delegate" destination="AF9-rB-Jmf" id="H2q-yh-vew"/>
+                                    <outlet property="dataSource" destination="AF9-rB-Jmf" id="QHX-bz-Lue"/>
+                                    <outlet property="delegate" destination="AF9-rB-Jmf" id="DCy-WK-e7W"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -49,7 +49,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="400" height="500"/>
                     <connections>
-                        <outlet property="tableViewRestaurants" destination="qRk-lJ-wNE" id="cF1-Ud-pN9"/>
+                        <outlet property="tableViewRestaurants" destination="qRk-lJ-wNE" id="nTw-3W-2HP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t5S-MF-lpH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -68,11 +68,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="400" height="500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="54" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="L3Z-Jb-HZ4">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="54" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="L3Z-Jb-HZ4" userLabel="RestaurantTableView">
                                 <rect key="frame" x="0.0" y="60" width="400" height="379"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="21" id="lkm-jq-Dn3" customClass="MenuViewCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="21" id="lkm-jq-Dn3" customClass="MenuTableCell">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lkm-jq-Dn3" id="IDu-0Z-OYw">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -80,8 +80,8 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="ibi-DV-PjR" id="2qG-7Y-vEA"/>
-                                    <outlet property="delegate" destination="ibi-DV-PjR" id="wsL-hm-2y8"/>
+                                    <outlet property="dataSource" destination="ibi-DV-PjR" id="gxV-GE-fFS"/>
+                                    <outlet property="delegate" destination="ibi-DV-PjR" id="ESf-p7-AZJ"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -91,7 +91,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="400" height="500"/>
                     <connections>
-                        <outlet property="tblRestaurantMenu" destination="L3Z-Jb-HZ4" id="Hi8-Km-pJp"/>
+                        <outlet property="restaurantMenuTable" destination="L3Z-Jb-HZ4" id="eKx-gW-gtd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a2f-h9-9sL" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -117,12 +117,12 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qki-16-OP4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="298" y="349"/>
+            <point key="canvasLocation" x="350" y="367"/>
         </scene>
-        <!--Restaurants-->
+        <!--RestaurantsNavigationController-->
         <scene sceneID="bCy-w6-E16">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2hb-PK-IDy" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2hb-PK-IDy" userLabel="RestaurantsNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Restaurants" image="Restaurant_Logo.png" id="SLG-vP-dXt">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-5"/>
                     </tabBarItem>
@@ -138,7 +138,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NxD-RX-WDB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="804" y="367"/>
+            <point key="canvasLocation" x="816" y="367"/>
         </scene>
         <!--Item-->
         <scene sceneID="pZX-2x-dwH">
@@ -153,7 +153,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t70-qc-Smk" customClass="Shape">
-                                <rect key="frame" x="16" y="6" width="368" height="250"/>
+                                <rect key="frame" x="16" y="6" width="368" height="245"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9JA-cU-H7H">
                                         <rect key="frame" x="8" y="87" width="210" height="118"/>
@@ -163,6 +163,14 @@
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="lKM-7n-vJN" appends="YES" id="W7m-NY-Kpt"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EsN-sk-p9e" customClass="DrawString">
+                                <rect key="frame" x="22" y="272" width="337" height="171"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -170,10 +178,16 @@
                     <tabBarItem key="tabBarItem" title="Item" image="Food-Cart.png" id="9DO-ca-2Zg"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="lblItem" destination="9JA-cU-H7H" id="7Wz-bU-zzq"/>
+                        <outlet property="orderView" destination="EsN-sk-p9e" id="sgp-Cg-zdR"/>
+                        <outlet property="selectedItemLabel" destination="9JA-cU-H7H" id="8bz-M0-fnU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JZT-Kd-vYC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="lKM-7n-vJN">
+                    <connections>
+                        <action selector="tapHandler:" destination="vuP-DH-Clu" id="tHN-uX-H6Q"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1015" y="1100"/>
         </scene>

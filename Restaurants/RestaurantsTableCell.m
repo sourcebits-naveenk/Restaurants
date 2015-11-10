@@ -1,14 +1,14 @@
 //
-//  MenuViewCell.m
+//  TableViewCell.m
 //  Restaurants
 //
-//  Created by Naveen Katari on 05/11/15.
+//  Created by Naveen Katari on 04/11/15.
 //  Copyright (c) 2015 Sourcebits. All rights reserved.
 //
 
-#import "MenuViewCell.h"
+#import "RestaurantsTableCell.h"
 
-@implementation MenuViewCell
+@implementation RestaurantsTableCell
 
 - (void)awakeFromNib {
     // Initialization code
@@ -19,5 +19,4 @@
 
     // Configure the view for the selected state
 }
-
 @end
