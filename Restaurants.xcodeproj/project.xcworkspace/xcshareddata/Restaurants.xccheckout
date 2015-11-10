@@ -20,7 +20,7 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8F089039BA220FA3DDC353719F5B276BE0FCBC79</key>
-		<string>../..Restaurants/</string>
+		<string>../..Restaurants</string>
 		<key>E3BA2232ADA6C358D8F990D600C1E0D03310F6F8</key>
 		<string>../..</string>
 	</dict>
@@ -46,7 +46,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>8F089039BA220FA3DDC353719F5B276BE0FCBC79</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Restaurants</string>
+			<string>RestaurantsRestaurants</string>
 		</dict>
 	</array>
 </dict>
